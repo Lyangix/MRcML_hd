@@ -31,8 +31,6 @@ Incorporating a large number of IVs can recover more genetic information and imp
 
 ### `mr_cML_hd()`
 
-Point estimation without data perturbation. Returns two estimators that differ in how the number of invalid IVs *K* is selected:
-
 | Estimator | Description |
 |---|---|
 | `cML-MA-BIC` | Model-averaged estimate using BIC weights (recommended) |
