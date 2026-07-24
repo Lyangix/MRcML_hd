@@ -2,7 +2,7 @@
 
 **High-Dimensional Mendelian Randomization via Constrained Maximum Likelihood**
 
-`MRcML\_hd` implements the high-dimensional variant of the [MRcML](https://github.com/xue-hr/MRcML) method for Mendelian Randomization (MR). It estimates the causal effect of an exposure on an outcome using GWAS summary statistics, while robustly handling many weak invalid instrumental variables (IVs).
+`MRcML_hd` implements the high-dimensional variant of the [MRcML](https://github.com/xue-hr/MRcML) method for Mendelian Randomization (MR). It estimates the causal effect of an exposure on an outcome using GWAS summary statistics, while robustly handling many weak invalid instrumental variables (IVs).
 
 The key difference from the standard `MRcML` package is the **standard error estimator**: this package uses a sandwich variance formula (instead of the standard Fisher information), which provides better-calibrated inference when the number of genetic instruments is large.
 
